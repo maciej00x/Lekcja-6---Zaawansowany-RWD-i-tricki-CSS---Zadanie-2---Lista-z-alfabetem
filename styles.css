@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.list-basics {
+  list-style-type: none;
+}
+
+li {
+  margin: 20px;
+  padding: 0;
+}
+
+li:nth-child(even) {
+  text-align: center;
+}
